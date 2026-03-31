@@ -1,0 +1,40 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a14"/>
+      <stop offset="100%" style="stop-color:#14101f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg3)"/>
+  <rect x="0" y="0" width="800" height="58" fill="#07070e"/>
+  <text x="40" y="37" font-family="system-ui,sans-serif" font-size="18" fill="#dfdfdf" font-weight="bold">AlmacénLocal</text>
+  <text x="220" y="37" font-family="system-ui,sans-serif" font-size="13" fill="#60608a">Inicio</text>
+  <text x="280" y="37" font-family="system-ui,sans-serif" font-size="13" fill="#60608a">Categorías</text>
+  <text x="360" y="37" font-family="system-ui,sans-serif" font-size="13" fill="#60608a">Ofertas</text>
+  <rect x="700" y="14" width="82" height="30" fill="#a476ff" rx="6"/>
+  <text x="714" y="34" font-family="system-ui,sans-serif" font-size="13" fill="#fff">🛒 Carrito 3</text>
+  <rect x="30" y="68" width="730" height="38" fill="#141420" rx="8" stroke="#221a38" stroke-width="1"/>
+  <text x="52" y="92" font-family="system-ui,sans-serif" font-size="14" fill="#50506a">🔍  Buscar productos...</text>
+  <rect x="30" y="120" width="165" height="195" fill="#141420" rx="10" stroke="#221a38" stroke-width="1"/>
+  <rect x="30" y="120" width="165" height="128" fill="#1e1933" rx="10"/>
+  <text x="82" y="195" font-family="system-ui,sans-serif" font-size="46">🥛</text>
+  <text x="44" y="277" font-family="system-ui,sans-serif" font-size="13" fill="#dfdfdf">Leche entera x1L</text>
+  <text x="44" y="298" font-family="system-ui,sans-serif" font-size="15" fill="#a476ff" font-weight="bold">$850</text>
+  <rect x="210" y="120" width="165" height="195" fill="#141420" rx="10" stroke="#221a38" stroke-width="1"/>
+  <rect x="210" y="120" width="165" height="128" fill="#1e1933" rx="10"/>
+  <text x="262" y="195" font-family="system-ui,sans-serif" font-size="46">🍞</text>
+  <text x="224" y="277" font-family="system-ui,sans-serif" font-size="13" fill="#dfdfdf">Pan lactal</text>
+  <text x="224" y="298" font-family="system-ui,sans-serif" font-size="15" fill="#a476ff" font-weight="bold">$620</text>
+  <rect x="390" y="120" width="165" height="195" fill="#141420" rx="10" stroke="#221a38" stroke-width="1"/>
+  <rect x="390" y="120" width="165" height="128" fill="#1e1933" rx="10"/>
+  <text x="442" y="195" font-family="system-ui,sans-serif" font-size="46">🧃</text>
+  <text x="404" y="277" font-family="system-ui,sans-serif" font-size="13" fill="#dfdfdf">Jugo de naranja</text>
+  <text x="404" y="298" font-family="system-ui,sans-serif" font-size="15" fill="#a476ff" font-weight="bold">$950</text>
+  <rect x="570" y="120" width="165" height="195" fill="#141420" rx="10" stroke="#221a38" stroke-width="1"/>
+  <rect x="570" y="120" width="165" height="128" fill="#1e1933" rx="10"/>
+  <text x="622" y="195" font-family="system-ui,sans-serif" font-size="46">🫙</text>
+  <text x="581" y="277" font-family="system-ui,sans-serif" font-size="13" fill="#dfdfdf">Dulce de leche</text>
+  <text x="581" y="298" font-family="system-ui,sans-serif" font-size="15" fill="#a476ff" font-weight="bold">$1.200</text>
+  <line x1="0" y1="430" x2="800" y2="430" stroke="#221a38" stroke-width="1"/>
+  <text x="40" y="462" font-family="system-ui,sans-serif" font-size="13" fill="#50506a">🚚 Envíos en el día · 💳 Pagos con tarjeta y efectivo · AlmacénLocal © 2025</text>
+</svg>

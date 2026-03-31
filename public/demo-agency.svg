@@ -1,35 +1,76 @@
 <svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0d0d1a"/>
       <stop offset="100%" style="stop-color:#1a0d2e"/>
     </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="800" height="500" fill="url(#bg2)"/>
-  <rect x="0" y="0" width="800" height="62" fill="#080812" opacity="0.95"/>
-  <text x="40" y="40" font-family="system-ui,sans-serif" font-size="22" fill="#a476ff" font-weight="bold">NOVA</text>
-  <text x="500" y="40" font-family="system-ui,sans-serif" font-size="14" fill="#80809a">Servicios</text>
-  <text x="590" y="40" font-family="system-ui,sans-serif" font-size="14" fill="#80809a">Portafolio</text>
-  <text x="690" y="40" font-family="system-ui,sans-serif" font-size="14" fill="#dfdfdf">Contacto</text>
-  <text x="80" y="160" font-family="system-ui,sans-serif" font-size="44" fill="#dfdfdf" font-weight="bold">Agencia de</text>
-  <text x="80" y="215" font-family="system-ui,sans-serif" font-size="44" fill="#a476ff" font-weight="bold">Marketing Digital</text>
-  <text x="80" y="262" font-family="system-ui,sans-serif" font-size="16" fill="#80809a">Estrategias que conectan tu marca con el mundo.</text>
-  <rect x="80" y="292" width="155" height="46" fill="#a476ff" rx="8"/>
-  <text x="126" y="321" font-family="system-ui,sans-serif" font-size="15" fill="#ffffff" font-weight="600">Comenzar</text>
-  <rect x="80" y="358" width="155" height="46" fill="transparent" rx="8" stroke="#a476ff" stroke-width="1.5"/>
-  <text x="118" y="387" font-family="system-ui,sans-serif" font-size="15" fill="#a476ff">Ver casos</text>
-  <rect x="470" y="90" width="135" height="110" fill="#141128" rx="10" stroke="#2d1f4a" stroke-width="1"/>
-  <text x="510" y="148" font-family="system-ui,sans-serif" font-size="28">🔍</text>
-  <text x="503" y="183" font-family="system-ui,sans-serif" font-size="13" fill="#dfdfdf">SEO</text>
-  <rect x="625" y="90" width="135" height="110" fill="#141128" rx="10" stroke="#2d1f4a" stroke-width="1"/>
-  <text x="665" y="148" font-family="system-ui,sans-serif" font-size="28">📱</text>
-  <text x="651" y="183" font-family="system-ui,sans-serif" font-size="13" fill="#dfdfdf">Redes Sociales</text>
-  <rect x="470" y="220" width="135" height="110" fill="#141128" rx="10" stroke="#2d1f4a" stroke-width="1"/>
-  <text x="510" y="278" font-family="system-ui,sans-serif" font-size="28">✨</text>
-  <text x="498" y="313" font-family="system-ui,sans-serif" font-size="13" fill="#dfdfdf">Branding</text>
-  <rect x="625" y="220" width="135" height="110" fill="#141128" rx="10" stroke="#2d1f4a" stroke-width="1"/>
-  <text x="665" y="278" font-family="system-ui,sans-serif" font-size="28">📣</text>
-  <text x="648" y="313" font-family="system-ui,sans-serif" font-size="13" fill="#dfdfdf">Publicidad</text>
-  <line x1="0" y1="430" x2="800" y2="430" stroke="#2a1f45" stroke-width="1"/>
-  <text x="80" y="462" font-family="system-ui,sans-serif" font-size="14" fill="#50506a">+200 clientes satisfechos · Resultados medibles · NOVA © 2025</text>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="166" x2="800" y2="166" stroke="#ffffff05" stroke-width="1"/>
+  <line x1="0" y1="332" x2="800" y2="332" stroke="#ffffff05" stroke-width="1"/>
+  <line x1="266" y1="0" x2="266" y2="500" stroke="#ffffff05" stroke-width="1"/>
+  <line x1="533" y1="0" x2="533" y2="500" stroke="#ffffff05" stroke-width="1"/>
+
+  <!-- Glow circle behind text -->
+  <circle cx="400" cy="230" r="180" fill="#a476ff" opacity="0.05"/>
+  <circle cx="400" cy="230" r="120" fill="#a476ff" opacity="0.05"/>
+
+  <!-- Brand name -->
+  <text
+    x="400" y="185"
+    font-family="system-ui,-apple-system,sans-serif"
+    font-size="42"
+    font-weight="700"
+    fill="#dfdfdf"
+    text-anchor="middle"
+    letter-spacing="2"
+  >espacioamine</text>
+  <text
+    x="400" y="215"
+    font-family="system-ui,-apple-system,sans-serif"
+    font-size="16"
+    fill="#a476ff"
+    text-anchor="middle"
+    letter-spacing="6"
+  >.com</text>
+
+  <!-- Divider line -->
+  <line x1="300" y1="240" x2="500" y2="240" stroke="#a476ff" stroke-width="1" opacity="0.4"/>
+
+  <!-- Coming Soon text -->
+  <text
+    x="400" y="295"
+    font-family="system-ui,-apple-system,sans-serif"
+    font-size="28"
+    font-weight="300"
+    fill="#dfdfdf"
+    text-anchor="middle"
+    letter-spacing="10"
+    opacity="0.9"
+  >COMING SOON</text>
+
+  <!-- Subtitle -->
+  <text
+    x="400" y="335"
+    font-family="system-ui,-apple-system,sans-serif"
+    font-size="13"
+    fill="#80809a"
+    text-anchor="middle"
+    letter-spacing="1"
+  >Agencia de Marketing Digital · Próximamente</text>
+
+  <!-- Dots decoration -->
+  <circle cx="355" cy="378" r="3" fill="#a476ff" opacity="0.5"/>
+  <circle cx="375" cy="378" r="3" fill="#a476ff" opacity="0.7"/>
+  <circle cx="395" cy="378" r="3" fill="#a476ff" opacity="0.9"/>
+  <circle cx="415" cy="378" r="3" fill="#a476ff" opacity="0.7"/>
+  <circle cx="435" cy="378" r="3" fill="#a476ff" opacity="0.5"/>
 </svg>

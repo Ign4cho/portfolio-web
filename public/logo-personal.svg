@@ -1,0 +1,20 @@
+<!--
+  LOGO PERSONAL PLACEHOLDER
+  Reemplazá este archivo con tu logo real.
+  Tamaño recomendado: cualquier SVG vectorial, preferentemente horizontal.
+  Colores del sitio: #a476ff (violeta principal), #dfdfdf (blanco suave), #101010 (fondo)
+-->
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="40" rx="8" fill="#a476ff" fill-opacity="0.12"/>
+  <rect x="0.5" y="0.5" width="119" height="39" rx="7.5" fill="none" stroke="#a476ff" stroke-opacity="0.4"/>
+  <text
+    x="60"
+    y="26"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="18"
+    font-weight="700"
+    fill="#a476ff"
+    text-anchor="middle"
+    letter-spacing="3"
+  >IC</text>
+</svg>

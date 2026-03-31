@@ -1,4 +1,6 @@
 ---
+const base = import.meta.env.BASE_URL;
+
 interface Project {
   title: string;
   image: string;
@@ -11,7 +13,7 @@ interface Project {
 const projects: Project[] = [
   {
     title: "Dashboard de Analítica Web",
-    image: "/demo-analytics.svg",
+    image: `${base}demo-analytics.svg`,
     link: "https://github.com/Ign4cho",
     preview: "#",
     status: "Demo",
@@ -19,7 +21,7 @@ const projects: Project[] = [
   },
   {
     title: "Sitio Agencia de Marketing",
-    image: "/demo-agency.svg",
+    image: `${base}demo-agency.svg`,
     link: "https://github.com/Ign4cho",
     preview: "#",
     status: "Demo",
@@ -27,7 +29,7 @@ const projects: Project[] = [
   },
   {
     title: "E-shop Almacén Local",
-    image: "/demo-eshop.svg",
+    image: `${base}demo-eshop.svg`,
     link: "https://github.com/Ign4cho",
     preview: "#",
     status: "Demo",

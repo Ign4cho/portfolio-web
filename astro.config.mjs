@@ -7,7 +7,6 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site: "https://ign4cho.github.io",
-  base: "/portfolio-web",
   integrations: [tailwind(), react()],
   vite: {
     resolve: {

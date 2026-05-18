@@ -18,10 +18,13 @@
       <div>
         <form
           id="contact-form"
-          action=""
+          action="https://api.web3forms.com/submit"
           method="POST"
           class="flex flex-col gap-4"
         >
+          <input type="hidden" name="access_key" value="5b8ae55d-7dcd-474f-b63c-f98d4b65bcf4" />
+          <input type="hidden" name="subject" value="Nuevo mensaje desde tu portfolio" />
+          <input type="checkbox" name="botcheck" style="display:none" />
           <input
             type="text"
             name="from_name"

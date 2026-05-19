@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # personal info folder
 info personal/
+
+# Claude Code
+CLAUDE.md
